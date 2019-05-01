@@ -1,0 +1,17 @@
+.img-size {
+  width: 100%;
+}
+
+.btn {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  cursor: pointer;
+}
+
+.info {
+  background-color: #2196f3;
+}
+.info:hover {
+  background: #0b7dda;
+}
