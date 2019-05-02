@@ -1,3 +1,33 @@
-<div class="img-size">
-  <img src="../../assets/images/server-room.jpg" alt="Servers" width="100%" height="600px"/>
+<div class="img-size div-one">
+  <img src="../../assets/images/server-room.jpg" alt="Servers" width="100%" height="200px"/>
+</div>
+<div class="header">
+  <h1>Welcome to Server Rental 4000!</h1>
+  <h3>Making servers available for everybody, big or small!</h3>
+</div>
+<div>
+  <ul class="task">
+    <li class="task-item" *ngFor="let locations of points">
+      <p>{{locations}}</p>
+    </li>
+  </ul>
+</div>
+<div class="flex-container">
+  <div class="left-half">
+    <p>First Item</p>
+    <button class="btn btn-alert">Left Button</button>
+  </div>
+  <div class="right-half">
+    <div [hidden]="submitted">
+      <form class="newsletter-form" #newsletterForm="ngForm" (ngSubmit)="onNewsletterSignup(newsletterForm)">
+        <h3>Sign up for our Newsletter</h3>
+        <input type="email" placeholder="Enter Email" name="email" ngModel required>
+        <button type="submit" class="btn btn-info">Sign Up</button>
+      </form>
+    </div>
+    <div [hidden]="!submitted">
+      <p>You submitted the following: {{email}}</p>
+      <button class="btn btn-info" (click)="onEditClick(newsletterForm)">Edit</button>
+    </div>
+  </div>
 </div>

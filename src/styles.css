@@ -1,3 +1,27 @@
 body {
   margin: 0px;
 }
+
+.btn {
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 14px 28px;
+  cursor: pointer
+}
+
+.btn:active {
+  transform: translateY(4px);
+}
+
+.btn-info {
+  background-color: #2196f3;
+}
+
+.btn-info:hover {
+  background: #0b7dda;
+}
+
+.btn-alert {
+  background-color: red;
+}
