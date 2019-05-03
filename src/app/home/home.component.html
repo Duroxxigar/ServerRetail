@@ -15,7 +15,6 @@
 <div class="flex-container">
   <div class="left-half">
     <app-testimonial></app-testimonial>
-    <button class="btn btn-alert">Left Button</button>
   </div>
   <div class="right-half">
     <div [hidden]="submitted">
@@ -26,7 +25,7 @@
       </form>
     </div>
     <div [hidden]="!submitted">
-      <p>You submitted the following: {{email}}</p>
+      <h3>You submitted the following: {{email}}</h3>
       <button class="btn btn-info" (click)="onEditClick(newsletterForm)">Edit</button>
     </div>
   </div>
