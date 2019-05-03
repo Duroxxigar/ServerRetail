@@ -11,7 +11,7 @@ export class HomeComponent implements OnInit {
   submitted: boolean = false;
   email: string = '';
 
-  points = ['airbnb', 'asana', 'stripe', 'slack', 'Segment'];
+  points = ['Big Game Studio', 'Indie Game Studio', 'Big Business', 'Small Business', 'Personal'];
 
   constructor() { }
 

@@ -9,6 +9,7 @@ import {ServersComponent} from './servers/servers.component';
 import {PricingComponent} from './pricing/pricing.component';
 import {AboutComponent} from './about/about.component';
 import {FormsModule} from '@angular/forms';
+import { TestimonialComponent } from './home/testimonial/testimonial.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import {FormsModule} from '@angular/forms';
     HomeComponent,
     ServersComponent,
     PricingComponent,
-    AboutComponent
+    AboutComponent,
+    TestimonialComponent
   ],
   imports: [
     BrowserModule,
