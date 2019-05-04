@@ -1,0 +1,17 @@
+ul {
+  list-style-type: none;
+}
+ul li {
+  padding: 16px;
+  border: 1px dashed blue;
+}
+
+.pricing-box {
+  border: 1px solid black;
+  margin: 30px 50px 30px 50px;
+}
+
+.price {
+  font-size: 30px;
+  color: blue;
+}

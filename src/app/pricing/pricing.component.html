@@ -1,6 +1,3 @@
-<div>
-  <ul *ngFor="let server of serverPricing; let i = index">
-    <app-server-price
-      [serverLocation]="serverPricing[i].name" [serverPrice]="serverPricing[i].price" [serverStorage]="serverPricing[i].storage"></app-server-price>
-  </ul>
-</div>
+<app-server-price
+  [serverLocation]="serverPricing[0].name" [serverPrice]="serverPricing[0].price"
+  [serverStorage]="serverPricing[0].storage"></app-server-price>
