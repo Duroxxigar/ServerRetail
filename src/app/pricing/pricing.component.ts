@@ -7,6 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PricingComponent implements OnInit {
 
+  serverPricing = [
+    {
+      name: 'East US',
+      price: 79.99,
+      storage: '1 TB'
+    },
+    {
+      name: 'West US',
+      price: 79.99,
+      storage: '1 TB'
+    }
+  ];
+
   constructor() { }
 
   ngOnInit() {

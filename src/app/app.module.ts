@@ -10,6 +10,7 @@ import {PricingComponent} from './pricing/pricing.component';
 import {AboutComponent} from './about/about.component';
 import {FormsModule} from '@angular/forms';
 import { TestimonialComponent } from './home/testimonial/testimonial.component';
+import { ServerPriceComponent } from './pricing/server-price/server-price.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { TestimonialComponent } from './home/testimonial/testimonial.component';
     ServersComponent,
     PricingComponent,
     AboutComponent,
-    TestimonialComponent
+    TestimonialComponent,
+    ServerPriceComponent
   ],
   imports: [
     BrowserModule,
